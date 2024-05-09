@@ -1,10 +1,75 @@
+a{
+    color:#232b2b;
+    text-decoration:none;
+    outline: solid 3px #232b2b;
+    outline-offset:0.2em;
+ }
+
 body {
-    margin: 0;
+    margin: 1%;
     padding: 0;
     box-sizing: border-box;
     min-height: 100dvh;
     width: 100%;
     background-color: #eeeee4;
     color: #232b2b;
+    outline:solid 0.5em #232b2b;
+    outline-offset: 2%;
 }
 
+.splashText{
+    font-family: "susan-classic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    margin: 5%;
+}
+
+.headerBar {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    padding: 2%;
+    img{
+        max-width:50%;
+        height: auto;
+    }
+}
+
+.nav{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-family: "zeitung", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    border-style:solid;
+    border:#232b2b;
+
+}
+
+.navLinks{
+    display:flex;
+    list-style:none;
+    margin-right: 5%;
+    gap: 5%;
+    font-family: "zeitung", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+.child{
+    h2{
+        margin-right: 60%;
+        padding: 3px;
+        background-color:#232b2b;
+        color:#eeeee4;
+        font-family: "zeitung", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5em;
+    }
+}
