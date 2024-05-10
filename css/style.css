@@ -1,11 +1,23 @@
 a{
     color:#232b2b;
     text-decoration:none;
-    outline: solid 3px #232b2b;
+    outline: solid 0.3vw #232b2b;
     outline-offset:0.2em;
+    font-size: 1em;
+    font-family: "zeitung", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
  }
 
+.bodyBorder{
+    display:block;
+    border:#232b2b;
+    border-width:0.5em;
+}
+
 body {
+    border: double 1em #232b2b;
     margin: 1%;
     padding: 0;
     box-sizing: border-box;
@@ -13,8 +25,7 @@ body {
     width: 100%;
     background-color: #eeeee4;
     color: #232b2b;
-    outline:solid 0.5em #232b2b;
-    outline-offset: 2%;
+    max-width:98%;
 }
 
 .splashText{
@@ -22,29 +33,34 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 1.5em;
-    margin: 5%;
+    margin: 1em;
+    text-align:center;
 }
 
 .headerBar {
     display:flex;
     flex-direction:row;
     flex-wrap: nowrap;
-    padding: 2%;
+    padding: 0;
+    margin-top: 2%;
     img{
-        max-width:50%;
+        max-width:40%;
+        min-width:40%;
         height: auto;
     }
+    justify-content:center;
 }
 
 .nav{
+    margin-right:5em;
     display:flex;
     flex-direction:row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
     font-family: "zeitung", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     border-style:solid;
     border:#232b2b;
 
@@ -62,14 +78,74 @@ body {
 }
 
 .child{
+    align-items:center;
+    justify-content:center;
+
     h2{
-        margin-right: 60%;
-        padding: 3px;
+
         background-color:#232b2b;
         color:#eeeee4;
         font-family: "zeitung", sans-serif;
         font-weight: 700;
         font-style: normal;
         font-size: 1.5em;
+
+    }
+
+    h3{
+
+        font-family: "susan-classic", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size:1.5em;
+    }
+    a{
+        margin-left: 0;
+    }
+
+    li{
+        font-family: "zeitung", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1em;
+        list-style:none;
+    }
+}
+
+.jumpLanding{
+    outline:none;
+}
+
+.columnParent{
+    display:flex;
+    flex-direction:row;
+    gap:5em;
+}
+
+.columnImages{
+    display:flex;
+    flex-direction:column;
+    gap:1em;
+    max-width:30%;
+    max-height:auto;
+    align-items:right;
+    justify-content:right;
+    margin-right:0%
+}
+
+.columnText{
+    max-width:50%;
+}
+
+.columnSchedule{
+    margin: 5%;
+    max-width: 50%
+}
+
+.parentTwo{
+    display:flex;
+    flex-direction:row;
+    li{font-size:1.5em;
+
     }
 }
