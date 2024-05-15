@@ -19,3 +19,7 @@ Band names generated with
 
 Wu Tang Clan Name Generator: http://www.mess.be/inickgenwuname.php
 Band Name Generator: https://www.indiesound.com/band-name-generator/
+
+Code cleaned up with
+
+Code cleaner: https://www.10bestdesign.com/dirtymarkup/css/
